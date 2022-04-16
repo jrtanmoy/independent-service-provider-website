@@ -1,7 +1,7 @@
 import React from 'react';
-import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
+import { Container, Nav, Navbar,} from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import logo from '../../images/logo.png'
+import logo from '../../images/logo2.png'
 
 const Header = () => {
 
@@ -9,7 +9,7 @@ const Header = () => {
 
     return (
         <>
-            <Navbar className='container' collapseOnSelect expand="lg" sticky='top' bg="primary" variant="dark">
+            <Navbar className='container' collapseOnSelect expand="lg" sticky='top' bg="success" variant="dark">
                 <Container>
                     <Navbar.Brand as={Link} to="/">
                         <img height={30} src={logo} alt="" />
