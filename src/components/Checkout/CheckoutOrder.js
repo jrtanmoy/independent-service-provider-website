@@ -2,8 +2,8 @@ import React from 'react';
 
 const CheckoutOrder = () => {
     return (
-        <div>
-            <h1>This is checkout</h1>
+        <div className='container text-center mt-5'>
+            <h1>Wellcome to checkout</h1>
         </div>
     );
 };
