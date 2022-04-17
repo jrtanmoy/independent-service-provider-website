@@ -1,6 +1,6 @@
 # Reflector-wild photographer
 
-This project  [live site](https://independent-service-prov-3df5f.firebaseapp.com/).
+This project  [live site](https://independent-service-prov-3df5f.web.app/).
 
 * About: personal wildlife photographer website
 * Website include services
