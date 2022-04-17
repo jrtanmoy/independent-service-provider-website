@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1,
+        "name": "Storytelling Wildlife Photo",
+        "price": "300",
+        "description": "In this offer, you will get the best storytelling wildlife photo. Satisfiction guaranteed 100%.",
+        "img": "https://photographylife.com/wp-content/uploads/2016/10/2016-10-PL-Article-Photo-09.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Exclusive Wildlife Photo",
+        "price": "200",
+        "description": "In this offer, you will get the exclusive wildlife photo.",
+        "img": "https://www.guillenphoto.com/data/blog/2017/003-chronique-raconter-histoire-photo-I/images/why-tell-story-with-a-photo-amar-guillen-photographer.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Classic Wildlife Photo",
+        "price": "150",
+        "description": "In this offer, you will get the alltime classic wildlife photo.",
+        "img": "https://www.documentary.org/images/magazine/2006/BigCatDiary_Feb2006.jpg"
+    }
+    
+]
