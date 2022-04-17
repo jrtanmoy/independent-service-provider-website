@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { useSignInWithEmailAndPassword, useSignInWithGoogle } from "react-firebase-hooks/auth";
+import { useSendPasswordResetEmail, useSignInWithEmailAndPassword, useSignInWithGoogle } from "react-firebase-hooks/auth";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -22,6 +22,8 @@ const Login = () => {
     const [signInWithEmail, user, loading, hookError] = useSignInWithEmailAndPassword(auth);
     const [signInWithGoogle, googleUser, loading2, googleError] = useSignInWithGoogle(auth);
     
+    const [sendPasswordResetEmail, sending] = useSendPasswordResetEmail(auth);
+
     const handleEmailChange = (e) => {
         const emailRegex = /\S+@\S+\.\S+/;
         const validEmail = emailRegex.test(e.target.value);
@@ -88,6 +90,17 @@ const Login = () => {
         }
     }, [hookError, googleError])
 
+    const resetPassword = async (e) => {
+        const email = userInfo.email   
+        if (email) {
+            await sendPasswordResetEmail(email);
+            toast('Sent email');
+        }
+        else{
+            toast('please enter your email address');
+        }
+    }
+
     return (
         <div className="login-container">
             <div className="login-title">LOGIN</div>
@@ -101,6 +114,7 @@ const Login = () => {
                 <ToastContainer />
 
                 <p className="mt-3">Don't have an account? <Link to="/signup">Sign up first</Link> </p>
+                <p>Forget Password? <button className='btn btn-link text-primary pe-auto text-decoration-none' onClick={resetPassword}>Reset Password</button> </p>
             </form>
             <p>Log in with one of the following:</p>
 
