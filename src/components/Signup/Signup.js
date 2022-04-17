@@ -96,11 +96,11 @@ const Signup = () => {
         <div className="login-container">
             <div className="login-title">Sign up</div>
             <form className="login-form" onSubmit={handleLogin}>
-                <input type="text" placeholder="Your Email" onChange={handleEmailChange} required/>
+                <input type="text" placeholder="Your Email" onChange={handleEmailChange} required />
                 {errors?.email && <p className="error-message">{errors.email}</p>}
                 <div className="relative">
-                    <input type={showPass ? "text" : "password"} placeholder="password" onChange={handlePasswordChange} required/>
-                    
+                    <input type={showPass ? "text" : "password"} placeholder="password" onChange={handlePasswordChange} required />
+
                     <p className="position-relative" onClick={() => setShowPass(!showPass)}>
                         <svg xmlns="http://www.w3.org/2000/svg" className="position-absolute top-50 end-0 translate-middle-y w-25 mb-5 pb-5 pe-4 me-1 mt-0 pt-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />

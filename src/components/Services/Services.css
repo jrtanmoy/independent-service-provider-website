@@ -1,5 +1,4 @@
-
-.services-container{
+.services-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
@@ -7,15 +6,15 @@
 
 /* make services responsive */
 @media only screen and (max-width:767px) {
-    .services-container{
+    .services-container {
         grid-template-columns: repeat(1, 1fr);
         justify-content: center;
     }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 992px) {
-    .services-container{
-        
+    .services-container {
+
         grid-template-columns: repeat(2, 1fr);
     }
 }

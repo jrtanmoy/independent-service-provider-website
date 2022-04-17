@@ -4,13 +4,13 @@ import FrequentlyAsked from '../FrequentlyAsked/FrequentlyAsked';
 import Services from '../Services/Services';
 
 const Home = () => {
-    return (
-        <div>
+  return (
+    <div>
       <Banner></Banner>
       <Services></Services>
       <FrequentlyAsked></FrequentlyAsked>
-        </div>
-    );
+    </div>
+  );
 };
 
 export default Home;

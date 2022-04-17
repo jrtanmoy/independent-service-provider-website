@@ -55,7 +55,7 @@ const Banner = () => {
 
                         <Carousel.Caption>
                             <h4>
-                            The love for all living creatures is the most noble attribute of man.
+                                The love for all living creatures is the most noble attribute of man.
                             </h4>
                         </Carousel.Caption>
                     </Carousel.Item>

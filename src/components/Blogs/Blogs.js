@@ -31,7 +31,7 @@ const Blogs = () => {
             <div>
                 <h4>3. What other services does firebase provide other than authentication?</h4>
                 <p className='fs-5 fst-italic'>Ans : </p>
-                <p className='fs-5 fst-italic'>Firebase not only provides authentication but also provides many more services. Like, 
+                <p className='fs-5 fst-italic'>Firebase not only provides authentication but also provides many more services. Like,
                     <ol class="list-group list-group-numbered w-25 mt-4">
                         <li class="list-group-item">Realtime Database.</li>
                         <li class="list-group-item">Cloud messaging.</li>

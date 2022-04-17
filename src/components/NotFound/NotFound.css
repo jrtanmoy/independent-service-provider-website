@@ -1,21 +1,23 @@
-.error-404{
+.error-404 {
     text-align: center;
     color: red;
     font-size: xx-large;
     font-weight: 500;
 }
-.around-link :hover{
+
+.around-link :hover {
     color: salmon;
 }
+
 .homepage-link {
     font-size: x-large;
     font-weight: 500;
     text-decoration: none;
     color: black;
-    
+
 }
-.error-img img{
+
+.error-img img {
     max-width: 300px;
     max-height: 200px;
 }
-

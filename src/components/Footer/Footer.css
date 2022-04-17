@@ -1,13 +1,15 @@
-.footer-container{
+.footer-container {
     margin-top: 200px;
-    background-color:rgb(65, 29, 47);
+    background-color: rgb(65, 29, 47);
     width: auto;
     height: 250px;
 }
-.footer-info{
+
+.footer-info {
     padding-top: 125px;
 }
-.footer-link-icon a{
+
+.footer-link-icon a {
     margin-left: 20px;
-   
+
 }

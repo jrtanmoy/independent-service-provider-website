@@ -13,13 +13,13 @@ const FrequentlyAsked = () => {
                             <Accordion.Item eventKey="0">
                                 <Accordion.Header>How much experience do you have?</Accordion.Header>
                                 <Accordion.Body>
-                                My years of experience have prepared me well for this position. I have been learning photography for seven years now. I spent three years working in a safari park, capturing some of the stunning photo.
+                                    My years of experience have prepared me well for this position. I have been learning photography for seven years now. I spent three years working in a safari park, capturing some of the stunning photo.
                                 </Accordion.Body>
                             </Accordion.Item>
                             <Accordion.Item eventKey="1">
                                 <Accordion.Header>Do you shoot in JPEG, Small Raw, or Large Raw?</Accordion.Header>
                                 <Accordion.Body>
-                               I shoot most of my images in Small Raw with certain situations where i move to Large Raw. 
+                                    I shoot most of my images in Small Raw with certain situations where i move to Large Raw.
                                 </Accordion.Body>
                             </Accordion.Item>
                             <Accordion.Item eventKey="2">
@@ -37,7 +37,7 @@ const FrequentlyAsked = () => {
                             <Accordion.Item eventKey="4">
                                 <Accordion.Header>How long does it take to get my prints?</Accordion.Header>
                                 <Accordion.Body>
-                                Product creation times vary, however, print orders will generally be completed within 6 weeks after the product order is submitted.
+                                    Product creation times vary, however, print orders will generally be completed within 6 weeks after the product order is submitted.
                                 </Accordion.Body>
                             </Accordion.Item>
                         </Accordion>

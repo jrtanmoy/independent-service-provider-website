@@ -40,7 +40,7 @@
     margin-bottom: 4px;
     color: gray;
     margin: 15px 0 5px 5px;
-    
+
 }
 
 .login-container input::placeholder {
@@ -75,11 +75,12 @@
 }
 
 
-.error-message{
+.error-message {
     font-size: 12px;
     color: red;
-    margin:10px;
+    margin: 10px;
 }
-.error-message::before{
+
+.error-message::before {
     content: "❌ ";
 }
