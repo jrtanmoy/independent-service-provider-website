@@ -4,6 +4,7 @@ import { Link, useLocation, useNavigate } from "react-router-dom";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { auth } from "../../firebase.init";
+import googlelogo from '../../images/google.svg'
 import "./Login.css";
 
 
@@ -91,20 +92,22 @@ const Login = () => {
         <div className="login-container">
             <div className="login-title">LOGIN</div>
             <form className="login-form" onSubmit={handleLogin}>
-                <input type="text" placeholder="Your Email" onChange={handleEmailChange} />
+                <input type="text" placeholder="Your Email" onChange={handleEmailChange} required />
                 {errors?.email && <p className="error-message">{errors.email}</p>}
-                <input type="password" placeholder="password" onChange={handlePasswordChange} />
+                <input type="password" placeholder="password" onChange={handlePasswordChange} required />
                 {errors?.password && <p className="error-message">{errors.password}</p> }
                 <button>Login</button>
 
-                {/* {error && <p className="error-message">{error}</p> } */}
-                {/* {hookError && <p className="error-message">{hookError?.message}</p>} */}
                 <ToastContainer />
 
-                <p>Don't have an account? <Link to="/signup">Sign up first</Link> </p>
+                <p className="mt-3">Don't have an account? <Link to="/signup">Sign up first</Link> </p>
             </form>
+            <p>Log in with one of the following:</p>
 
-            <button onClick={() => signInWithGoogle()}>Google</button>
+            <button className="bg-dark" onClick={() => signInWithGoogle()}>
+                <img src={googlelogo} alt="google logo" />
+               <span className="px-2">Google</span>
+               </button>
         </div>
     );
 };
