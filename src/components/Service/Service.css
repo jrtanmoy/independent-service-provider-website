@@ -1,16 +1,15 @@
 .service{
-    width: 350px;
+    max-width: 380px;
+    height: 500px;
     background-color: white;
     border: 1px solid #95A0A7;
     border-radius: 8px;
-    box-shadow: 4px 8px 15px 9px #cfcdcd;
+    box-shadow: 4px 8px 15px 9px #afaaaa;
     position: relative;
 }
 .service img{
-    max-width: 333px;
-    height: 280px;
     border-radius: 8px;
-    margin: 7px;
+    padding: 4px;
 }
 .service-info{
     margin: 0 14px;
@@ -24,7 +23,7 @@
 }
 .btn-cart{
     width: 100%;
-    background: #FFE0B3;
+    background: #ecc487;
     border: none;
     border-radius: 0px 0px 8px 8px;
     position: absolute;
@@ -39,49 +38,34 @@
 
 @media only screen and (min-width: 768px) and (max-width: 992px) {
     .service{
-        width: 300px;
+        max-width: 300px;
         background-color: white;
         border: 1px solid #95A0A7;
         border-radius: 8px;
         box-shadow: 4px 8px 15px 9px #cfcdcd;
         position: relative;
     }
-    .service img{
-        max-width: 280px;
-        height: 280px;
-        border-radius: 8px;
-        margin: 7px;
-    }
+    
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
     .service{
-        width: 320px;
+        max-width: 320px;
         background-color: white;
         border: 1px solid #95A0A7;
         border-radius: 8px;
         box-shadow: 4px 8px 15px 9px #cfcdcd;
         position: relative;
     }
-    .service img{
-        max-width: 296px;
-        height: 280px;
-        border-radius: 8px;
-        margin: 7px;
-    }
+    
 }
 @media only screen and (min-width: 993px) and (max-width: 1230px) {
     .service{
-        width: 290px;
+        max-width: 290px;
         background-color: white;
         border: 1px solid #95A0A7;
         border-radius: 8px;
         box-shadow: 4px 8px 15px 9px #cfcdcd;
         position: relative;
     }
-    .service img{
-        max-width: 276px;
-        height: 280px;
-        border-radius: 8px;
-        margin: 7px;
-    }
+    
 }
