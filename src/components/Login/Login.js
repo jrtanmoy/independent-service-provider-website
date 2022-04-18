@@ -68,10 +68,10 @@ const Login = () => {
     const from = location.state?.from?.pathname || "/";
 
     useEffect(() => {
-        if (user) {
+        if (user || googleUser) {
             navigate(from);
         }
-    }, [user]);
+    }, [user, googleUser]);
 
     useEffect(() => {
         const error = hookError || googleError;
